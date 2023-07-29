@@ -16,7 +16,7 @@ public class Demo6_task_b {
         System.out.println("+----------+-----+");
         System.out.printf("|%s%-10s%s|%1$s%5s%3$s|\n",COLOR_BLUE,"NAME",RESET,"AGE");
         System.out.println("+----------+-----+");
-        System.out.printf("|%-10s|%5s|\n|%-10s|%5s|\n",name1,age1,name2,age2);
+        System.out.printf("|%-10s|%s%5s%s|\n|%-10s|%2$s%5s%4$s|\n",name1,COLOR_MAGENTA,age1,RESET,name2,age2);
         System.out.println("+----------+-----+");
 
 
