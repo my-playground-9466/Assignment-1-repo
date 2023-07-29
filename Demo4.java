@@ -17,7 +17,7 @@ public class Demo4 {
 
         String RESET = "\033[0;0m";
 
-        System.out.printf("%s%d%s/%s%d%s/%s%d %s%d%s:%s%d%s:%s%d\n",color1,month,RESET,color2,day,RESET,color3,year,color4,hour,RESET,color5,minute,RESET,color6,second);
+        System.out.printf("%s%d%s/%s%d%3$s/%s%d %s%d%3$s:%s%d%3$s:%s%d\n",color1,month,RESET,color2,day,color3,year,color4,hour,color5,minute,color6,second);
 
     }
     
