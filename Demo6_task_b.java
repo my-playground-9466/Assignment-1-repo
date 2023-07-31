@@ -9,7 +9,7 @@ public class Demo6_task_b {
         int age2 = 30;
 
         String COLOR_BLUE = "\033[34;1m";
-        String COLOR_MAGENTA = "\033[255;1m";
+        String COLOR_MAGENTA = "\033[36;1m";
         String COLOR_ORANGE = "\033[33;0m";
 
         String RESET = "\033[0;0m";
