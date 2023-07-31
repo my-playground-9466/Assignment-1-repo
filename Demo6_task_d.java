@@ -10,7 +10,7 @@ public class Demo6_task_d {
 
     String RESET = "\033[0;0m";
 
-    final String LINE = "%1$s+%2$s+\n";
+
 
     System.out.printf("%s+%s+%1$s%2$s+%1$s%2$s+\n",COLOR_YELLOW,"-".repeat(10));
     System.out.printf("|%s%-10s%s|%1$s%-10s%3$s|%1$s%-10s%3$s|\n", COLOR_WHITE, "ITEM", COLOR_YELLOW, "QUANTITY", "PRICE");
