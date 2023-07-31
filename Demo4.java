@@ -16,6 +16,7 @@ public class Demo4 {
         String color6 = "\033[35;1m";
 
         String RESET = "\033[0;0m";
+        
 
         System.out.printf("%s%d%s/%s%d%3$s/%s%d %s%d%3$s:%s%d%3$s:%s%d\n",color1,month,RESET,color2,day,color3,year,color4,hour,color5,minute,color6,second);
 
